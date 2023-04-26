@@ -1,0 +1,49 @@
+using System;
+namespace Calcultor{
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int Num1,Num2,result;
+        string op;
+        Console.WriteLine ("enter 2 numbers");
+        Num1 = Convert.ToInt32(Console.ReadLine());
+        Num2 = Convert.ToInt32(Console.ReadLine());
+        Console.WriteLine ("enter operation");
+        op=Console.ReadLine();
+        switch(op)
+        {
+        case "+":
+        {
+        result=Num1 + Num2;
+        Console.WriteLine("Addition of 2 number is:" +result);
+        break;
+        }
+        case "-":
+        {
+        result=Num1 - Num2;
+        Console.WriteLine("Addition of 2 number is:" +result);
+        break;
+        }
+        case "*":
+        {
+        result=Num1 * Num2;
+        Console.WriteLine("Addition of 2 number is:" +result);
+        break;
+        }
+        case "/":
+        {
+        result=Num1 / Num2;
+        Console.WriteLine("Addition of 2 number is:" +result);
+        break;
+        }
+        default:
+        {
+        Console.WriteLine("Wrong operation");
+        break;
+        }
+        
+    }
+    }
+}
+}

@@ -1,0 +1,44 @@
+// Online C# Editor for free
+// Write, Edit and Run your C# code using C# Online Compiler
+
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int m1,m2,m3,m4,m5,result;
+        Console.WriteLine ("entwer the marks of 5 students");
+        m1 = Convert.ToInt32(Console.ReadLine());
+        m2 = Convert.ToInt32(Console.ReadLine());
+        m3 = Convert.ToInt32(Console.ReadLine());
+        m4 = Convert.ToInt32(Console.ReadLine());
+        m5 = Convert.ToInt32(Console.ReadLine());
+        if ((m1 >=m2) && (m1 >= m3) && (m1 >= m4) && (m1 >= m5))
+        {
+            Console.WriteLine("Hghest marks: "+ m1);
+            return;
+        }
+        if ((m2>=m1) && (m2 >= m3) && (m2 >= m4) && (m2>= m5))
+        {
+            Console.WriteLine("Hghest marks: "+m2);
+            return;
+        }
+        if ((m3 >=m1) && (m3>= m2) && (m3 >= m4) && (m3 >= m5))
+        {
+            Console.WriteLine("Hghest marks: "+ m3);
+            return;
+        }
+        if ((m4 >=m1) && (m4 >=m2) && (m4 >= m3) && (m4 >= m5))
+        {
+            Console.WriteLine("Hghest marks: "+ m4);
+            return;
+        }
+        if ((m5 >=m1) && (m5 >=m2) && (m5 >= m3) && (m5 >= m5))
+        {
+            Console.WriteLine("Hghest marks: "+ m5);
+            return;
+        
+    }
+}
+}
